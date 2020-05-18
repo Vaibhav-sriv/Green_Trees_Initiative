@@ -1,0 +1,464 @@
+@font-face {
+  font-family: Flood Std;
+  src: url('../img/FloodStd.otf');
+}
+
+body {
+  font-family: Helvetica;
+}
+
+header {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 120px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.container-1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 120px;
+  width: 100%;
+}
+
+.branding {
+  font: Bold 22px Helvetica;
+  color: #354463;
+}
+
+.nav-links a {
+  color: #354463;
+  font: 16px Helvetica;
+  display: flex;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  justify-content: space-between;
+}
+
+nav button {
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  border: none;
+  padding: 10px;
+  opacity: 1;
+}
+
+nav > button > a {
+  font: Bold 18px Helvetica;
+  color: #354463;
+  text-decoration: none;
+}
+
+#showcase-1 {
+  background: transparent url('../img/annie-spratt-135307-unsplash.png') 0% 0%
+    no-repeat padding-box;
+  background-color: #354463;
+  background-size: cover;
+  height: 672px;
+  opacity: 1;
+}
+
+.container-2 {
+  display: flex;
+  height: 672px;
+  justify-content: center;
+}
+
+.white-box {
+  position: relative;
+  background-color: #ffffff;
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10%;
+  padding: 50px;
+}
+
+.white-box span {
+  position: absolute;
+  background-color: #354463;
+  color: #ffffff;
+  padding: 10px 20px;
+  width: fit-content;
+  letter-spacing: 0.56px;
+  font: 14px Helvetica;
+  top: -4%;
+}
+
+.white-box > p {
+  color: #354463;
+  font: Bold 44px Helvetica;
+}
+
+.white-box a {
+  font: 16px Helvetica;
+  color: #354463;
+  position: absolute;
+  bottom: 10%;
+}
+
+.logo {
+  margin: 10% 25% 10% 0%;
+  width: 20%;
+  font: 56px Flood Std;
+  color: #ffffff;
+}
+
+#showcase-2 {
+  background-size: cover;
+  background-color: #c1f7d5;
+  height: 240px;
+  opacity: 1;
+}
+
+#showcase-2 > span {
+  background-color: #354463;
+  color: #ffffff;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  width: fit-content;
+  font: 14px Helvetica;
+  margin-left: 50%;
+}
+
+.container-3 {
+  display: flex;
+  justify-content: space-evenly;
+  height: 240px;
+  opacity: 1;
+}
+
+.container-3 a {
+  text-decoration: none;
+  color: #354463;
+  font: Bold 28px Helvetica;
+}
+
+.container-3 p {
+  color: #354463;
+  font: 16px Helvetica;
+}
+
+.learn,
+.volunteer,
+.share,
+.donate {
+  width: 230px;
+  height: 90ox;
+  align-self: center;
+}
+
+#showcase-3 {
+  background-size: cover;
+}
+
+.container-4 {
+  display: flex;
+  background-color: #354463;
+  height: 1100px;
+  padding: 10%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.whatwedo {
+  background-color: #ffffff;
+  padding: 20px;
+  font: 25px Helvetica;
+  color: #354463;
+  width: fit-content;
+}
+
+.mission {
+  width: fit-content;
+  font: Bold 44px Helvetica;
+  color: #ffffff;
+}
+
+.positioning {
+  display: flex;
+  height: 50%;
+  justify-content: space-between;
+}
+
+.content-a,
+.content-b,
+.content-c {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 25px;
+  justify-content: space-evenly;
+  background-color: #ffffff;
+}
+
+.positioning span {
+  font: Bold 28px Helvetica;
+  color: #354463;
+}
+
+.positioning p {
+  font: 16px Helvetica;
+  color: #354463;
+  letter-spacing: -0.16px;
+}
+
+.positioning button {
+  background: #c1f7d5 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  opacity: 1;
+  color: #354463;
+  width: fit-content;
+  padding: 10px;
+  border: none;
+  font: Bold 18px Helvetica;
+}
+
+img {
+  margin-top: -25%;
+  margin-left: 10%;
+  width: 100%;
+}
+
+footer {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 370px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.container-5 {
+  width: 100%;
+  height: 370px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #354463;
+}
+
+.box-1 {
+  width: 200px;
+  height: 200px;
+  font: 32px bold;
+}
+
+.contact {
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+}
+
+.link {
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+}
+
+.follow {
+  width: 200px;
+  height: 200px;
+  font-size: 20px;
+}
+
+.logo-2 {
+  width: 200px;
+  height: 200px;
+  font: 44px Flood Std;
+}
+
+.container-5 hr {
+  border: 1px solid #354463;
+}
+
+@media (max-width: 1220px) {
+  .container-2 {
+    flex-direction: column-reverse;
+  }
+
+  .logo {
+    margin: 5% 0% 0% 10%;
+    font: 44px Flood Std;
+  }
+
+  .white-box {
+    margin: 5% 10% 10% 10%;
+  }
+
+  .white-box > p {
+    font: Bold 36px Helvetica;
+  }
+
+  .learn,
+  .volunteer,
+  .share,
+  .donate {
+    width: 40%;
+  }
+
+  #showcase-2 {
+    height: 440px;
+  }
+
+  .container-3 {
+    flex-wrap: wrap;
+    height: 336px;
+  }
+
+  .container-4 {
+    height: 1600px;
+  }
+
+  .positioning {
+    flex-direction: column;
+    height: inherit;
+  }
+
+  img {
+    margin-top: auto;
+    margin-left: auto;
+    width: auto;
+  }
+
+  .content-a,
+  .content-b,
+  .content-c {
+    height: auto;
+    width: auto;
+    justify-content: space-between;
+  }
+
+  .img {
+    width: auto;
+    margin-top: -5%;
+  }
+  .msg {
+    margin-left: 5%;
+    width: auto;
+  }
+
+  .subbox {
+    display: flex;
+  }
+
+  .container-5 {
+    flex-wrap: wrap;
+    height: 500px;
+  }
+
+  .follow {
+    margin-left: 34%;
+  }
+}
+
+@media (max-width: 650px) {
+  nav {
+    flex-wrap: wrap;
+  }
+
+  .nav-links {
+    flex-direction: column;
+  }
+
+  .white-box {
+    margin: 20% 5% 0% 5%;
+    padding: 35px;
+  }
+
+  .white-box > p {
+    font: Bold 22px Helvetica;
+  }
+
+  #showcase-2 > span {
+    margin-left: 30%;
+  }
+
+  .container-3 a {
+    font: Bold 18px Helvetica;
+  }
+
+  .container-3 p {
+    font: 14px Helvetica;
+  }
+
+  .whatwedo {
+    font: 14px Helvetica;
+    margin-left: 20%;
+  }
+
+  .mission {
+    font: Bold 22px Helvetica;
+  }
+
+  .subbox {
+    flex-direction: column;
+  }
+
+  .positioning span {
+    font: Bold 18px Helvetica;
+  }
+
+  .positioning button {
+    font: Bold 14px Helvetica;
+    padding: 2%;
+  }
+
+  .positioning p {
+    font: 14px Helvetica;
+  }
+  .button {
+    align-self: center;
+  }
+
+  img {
+    width: 60%;
+    margin-left: 15%;
+  }
+
+  .msg {
+    margin: 0% 15%;
+  }
+
+  /* Footer */
+
+  .container-5 {
+    justify-content: space-around;
+    height: 700px;
+  }
+
+  .box-1 {
+    font-size: 18px;
+    height: auto;
+    width: auto;
+  }
+
+  .contact,
+  .link {
+    font-size: 14px;
+    height: auto;
+    width: auto;
+  }
+
+  .follow {
+    margin-left: 0%;
+    font-size: 14px;
+    height: auto;
+    width: auto;
+  }
+}
